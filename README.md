@@ -34,6 +34,26 @@ Open [http://localhost:3000](http://localhost:3000). If port 3000 is in use, Nex
 - Restart: `npm run dev`
 - Try the URL shown in the terminal (e.g. http://localhost:3001)
 
+## Deploy Online (Share Your Site)
+
+To publish and share your site with a public URL:
+
+1. **Push to GitHub**
+   ```bash
+   # Create a new repo at github.com/new, then:
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git push -u origin main
+   ```
+
+2. **Deploy on Vercel** (recommended for Next.js)
+   - Go to [vercel.com/new](https://vercel.com/new)
+   - Sign in with GitHub
+   - Click **Import** on your repository
+   - Keep defaults and click **Deploy**
+   - Your site will be live at `https://your-project.vercel.app`
+
+3. **Share the URL** – Send the Vercel URL to anyone; it works on desktop and mobile.
+
 ## Configuration
 
 **Development:** Use the Leva control panel (right side) when running `npm run dev` to tune all parameters in real time.
